@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuCollapseSection = document.querySelector('#menuCollapseSection');
 
     iconMenu.addEventListener('click', () => {
-        // iconMenu.style.display = "none";
         menuCollapseSection.style.display = "block"
     })
 

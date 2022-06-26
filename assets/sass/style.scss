@@ -28,7 +28,7 @@ $almostBlack: hsl(0, 0%, 8%);
     }
     #menuCollapseSection {
         height: 100vh;
-        margin-left: 50%;
+        margin-left: 25%;
         display: none;
         position: absolute;
         right: 12px;
@@ -40,5 +40,30 @@ $almostBlack: hsl(0, 0%, 8%);
             margin-left: 80%;
             padding-top: 20px;
         }
+        ul {
+            margin-left: 20px;
+            padding-top: 40px;
+            #login{
+                text-align: center;
+            }
+            #register{
+                border: 0.5px solid $mediumGray;
+                width: 100px;
+                text-align: center;
+                margin: auto;
+                border-radius: 13px;
+                padding: 10px 30px 10px 30px;
+            }
+            li{
+                list-style: none;
+                font-size: 1.3rem;
+                margin-bottom: 15px;
+                a {
+                    text-decoration: none;
+                    color: $mediumGray;
+                }
+            }
+        }
+        
     }
 }

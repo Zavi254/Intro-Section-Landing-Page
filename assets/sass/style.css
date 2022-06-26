@@ -31,7 +31,7 @@
   }
   #menuCollapseSection {
     height: 100vh;
-    margin-left: 50%;
+    margin-left: 25%;
     display: none;
     position: absolute;
     right: 12px;
@@ -42,6 +42,30 @@
   #menuCollapseSection #iconCloseMenu {
     margin-left: 80%;
     padding-top: 20px;
+  }
+  #menuCollapseSection ul {
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+  #menuCollapseSection ul #login {
+    text-align: center;
+  }
+  #menuCollapseSection ul #register {
+    border: 0.5px solid dimgray;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border-radius: 13px;
+    padding: 10px 30px 10px 30px;
+  }
+  #menuCollapseSection ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  #menuCollapseSection ul li a {
+    text-decoration: none;
+    color: dimgray;
   }
 }
 /*# sourceMappingURL=style.css.map */
