@@ -67,5 +67,10 @@
     text-decoration: none;
     color: dimgray;
   }
+  .heroSection {
+    background-image: url("../images/image-hero-mobile.png");
+    height: 50vh;
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
