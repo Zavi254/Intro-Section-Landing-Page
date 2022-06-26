@@ -1,4 +1,28 @@
+$almostWhite: hsl(0, 0%, 98%);
+$mediumGray: hsl(0, 0%, 41%);
+$almostBlack: hsl(0, 0%, 8%);
+
 *{
     margin: 0;
     padding: 0;
+}
+@media only screen and (max-width:425px){
+    body {
+        background-color: $almostWhite
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        #logoImage {
+            margin-left: 15px;
+        }
+        #iconMenu ,#iconCloseMenu{
+            margin-right: 15px;
+        }
+        #iconCloseMenu {
+            display: none;
+        }
+    }
 }

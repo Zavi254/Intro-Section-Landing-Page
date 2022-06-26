@@ -2,4 +2,31 @@
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-color: #fafafa;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+  }
+  nav #logoImage {
+    margin-left: 15px;
+  }
+  nav #iconMenu, nav #iconCloseMenu {
+    margin-right: 15px;
+  }
+  nav #iconCloseMenu {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
