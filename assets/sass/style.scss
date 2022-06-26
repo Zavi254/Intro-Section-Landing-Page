@@ -16,6 +16,7 @@ $almostBlack: hsl(0, 0%, 8%);
         top: 0;
         right: 0;
         left: 0;
+        background-color: $almostWhite;
         #logoImage {
             margin-left: 15px;
         }
@@ -33,8 +34,9 @@ $almostBlack: hsl(0, 0%, 8%);
         position: absolute;
         right: 12px;
         left: 30px;
-        z-index: 1000;
+        z-index: 500;
         background-color: $almostWhite;
+        top: 2px;
         
         #iconCloseMenu {
             margin-left: 80%;
@@ -68,7 +70,10 @@ $almostBlack: hsl(0, 0%, 8%);
     }
     .heroSection{
         background-image: url('../images/image-hero-mobile.png');
-        height:50vh;
+        height: 84vh;
         margin-top: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 }
