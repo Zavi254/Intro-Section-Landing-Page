@@ -1,14 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const iconMenu = document.querySelector('#iconMenu');
     const iconCloseMenu = document.querySelector('#iconCloseMenu');
+    const menuCollapseSection = document.querySelector('#menuCollapseSection');
 
     iconMenu.addEventListener('click', () => {
-        iconMenu.style.display = "none";
-        iconCloseMenu.style.display = "block";
+        // iconMenu.style.display = "none";
+        menuCollapseSection.style.display = "block"
     })
 
     iconCloseMenu.addEventListener('click', () => {
-        iconCloseMenu.style.display = "none";
-        iconMenu.style.display = "block"
+        menuCollapseSection.style.display = "none";
+        // iconMenu.style.display = "block"
     })
 })
