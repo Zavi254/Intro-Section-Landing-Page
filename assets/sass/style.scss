@@ -17,11 +17,14 @@ $almostBlack: hsl(0, 0%, 8%);
         right: 0;
         left: 0;
         background-color: $almostWhite;
+        padding-bottom: 10px;
         #logoImage {
             margin-left: 15px;
+            margin-top: 15px;
         }
         #iconMenu ,#iconCloseMenu{
             margin-right: 15px;
+            margin-top: 15px;
         }
         #iconCloseMenu {
             display: none;
@@ -63,6 +66,18 @@ $almostBlack: hsl(0, 0%, 8%);
                 a {
                     text-decoration: none;
                     color: $mediumGray;
+                    :link{
+                        background-color: $almostWhite;
+                    }
+                    :visited{
+                        background-color: $almostWhite;
+                    }
+                    :hover{
+                        background-color: $almostWhite;
+                    }
+                    :active{
+                        background-color: none;
+                    }
                 }
             }
         }
@@ -70,10 +85,10 @@ $almostBlack: hsl(0, 0%, 8%);
     }
     .heroSection{
         background-image: url('../images/image-hero-mobile.png');
-        height: 90vh;
-        margin-top: 30px;
-        background-size: cover;
+        height: 100vh;
+        margin-top: -60px;
         background-repeat: no-repeat;
         background-position: center center;
+        background-size: contain;
     }
 }

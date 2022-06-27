@@ -20,12 +20,15 @@
     right: 0;
     left: 0;
     background-color: #fafafa;
+    padding-bottom: 10px;
   }
   #imageSection #logoImage {
     margin-left: 15px;
+    margin-top: 15px;
   }
   #imageSection #iconMenu, #imageSection #iconCloseMenu {
     margin-right: 15px;
+    margin-top: 15px;
   }
   #imageSection #iconCloseMenu {
     display: none;
@@ -69,13 +72,25 @@
     text-decoration: none;
     color: dimgray;
   }
+  #menuCollapseSection ul li a :link {
+    background-color: #fafafa;
+  }
+  #menuCollapseSection ul li a :visited {
+    background-color: #fafafa;
+  }
+  #menuCollapseSection ul li a :hover {
+    background-color: #fafafa;
+  }
+  #menuCollapseSection ul li a :active {
+    background-color: none;
+  }
   .heroSection {
     background-image: url("../images/image-hero-mobile.png");
-    height: 90vh;
-    margin-top: 30px;
-    background-size: cover;
+    height: 100vh;
+    margin-top: -60px;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: contain;
   }
 }
 /*# sourceMappingURL=style.css.map */
