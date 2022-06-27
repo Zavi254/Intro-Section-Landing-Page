@@ -19,6 +19,7 @@
     top: 0;
     right: 0;
     left: 0;
+    background-color: #fafafa;
   }
   #imageSection #logoImage {
     margin-left: 15px;
@@ -34,10 +35,11 @@
     margin-left: 25%;
     display: none;
     position: absolute;
-    right: 12px;
+    right: 0px;
     left: 30px;
-    z-index: 1000;
+    z-index: 500;
     background-color: #fafafa;
+    top: 2px;
   }
   #menuCollapseSection #iconCloseMenu {
     margin-left: 80%;
@@ -69,8 +71,11 @@
   }
   .heroSection {
     background-image: url("../images/image-hero-mobile.png");
-    height: 50vh;
+    height: 90vh;
     margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 /*# sourceMappingURL=style.css.map */
